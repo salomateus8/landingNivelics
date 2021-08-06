@@ -1,0 +1,81 @@
+// ==========================================================================
+// External Source Definitions 
+// ==========================================================================
+
+$font-size         : 1.6rem;
+$font-primary      : 'Lato', sans-serif;
+$font-secondary    : 'Nunito', sans-serif;
+$font-icon         : 'iconFont';
+
+// ==========================================================================
+// COLORS : Eje.: background: color( primary, light );
+// ==========================================================================
+
+$colors: (
+   primary: (
+      base: #14AFDD,
+      light: #D3E9FF,
+      dark:#002452
+   ),
+   secondary: (
+      base: #26A0C4
+   ),
+   /*borders: (
+      color-1: #105EBA
+   ),*/
+   header: (
+      color-1: #EDEDED
+   )
+
+   grayscale: (
+      white:  #ffffff,
+      gray-1: #f5f5f5,
+      gray-2: #f6f7fB,
+      gray-3: #cccccc,
+      gray-4: #999999,
+      gray-5: #303030,
+      gray-6: #969696,
+      gray-7: #4a4a4a,
+      gray-8: #4B4B4B,
+      base:   #0F0A09,
+      black:  #000000
+   )
+);
+
+// ==========================================================================
+// SPACING : Eje.: padding: map-get($sizes, "tiny");
+// ==========================================================================
+
+$sizes: (
+   xsmall : 1.6rem, // 16px
+   tiny   : 1.8rem,  // 18px
+   small  : 2.4rem, // 24px
+   base   : 2.5rem,  // 25px
+   thumb  : 2.9rem, // 29px
+   half   : 3rem, // 30px
+   medium : 4rem, // 40px
+   /*large  : 4rem, // 40px
+   xlarge : 4.5rem,  // 45px*/
+   /*huge   : 3.1rem,  // 49px*/
+);
+
+// ==========================================================================
+// Breakpoints
+// ==========================================================================
+
+$breakpoints: (
+   x   : 375px, //tel portrait
+   sm  : 540px, //tel landscape
+   md  : 768px, //ipad portrait
+   lg  : 960px, //ipad landscape
+   /* l  : 1360px,
+   ml  : 1440px,
+   xx   : 1500px,*/
+   xl  : 1440px, //desktop1440
+);
+
+// ==========================================================================
+// Alignment
+// ==========================================================================
+
+$alignment: left, center, right, justify;

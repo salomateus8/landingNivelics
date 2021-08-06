@@ -1,0 +1,36 @@
+.modal {
+
+    .modal-dialog {
+        display: flex;
+        transform: translateY(0%);
+        top: 30%;
+    }
+    .modal-content {
+        background: url("../images/home/fondomovil.png") no-repeat 0 0;
+        background-size: cover;
+        box-shadow: 1px 7px 25px rgba(0,0,0,1.2);
+        border: none;
+        .modal-header {
+            background: white;
+            padding: 0;
+            P { 
+                color: color(primary,base);
+                font-family: $font-primary;
+                font-weight: 600;
+                margin: 10px 0 10px 50px;
+                text-align: center;
+            }
+            .close {
+                color: color( primary, base );;
+                cursor: pointer;
+                font-size: 4.5rem;
+                position: absolute;
+                right: 20px;
+            }
+        }
+        video {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

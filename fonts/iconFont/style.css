@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'iconFont';
+  src:  url('../fonts/iconFont.eot?f1077w');
+  src:  url('../fonts/iconFont.eot?f1077w#iefix') format('embedded-opentype'),
+    url('../fonts/iconFont.ttf?f1077w') format('truetype'),
+    url('../fonts/iconFont.woff?f1077w') format('woff'),
+    url('../fonts/iconFont.svg?f1077w#iconFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconFont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+  color: #26a0c4;
+}
+.icon-dot:before {
+  content: "\e901";
+  color: #002452;
+}

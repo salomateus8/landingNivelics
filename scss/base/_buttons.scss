@@ -1,0 +1,83 @@
+.btn {
+   box-shadow: none;
+   border: none;
+   color: color(grayscale, white);
+   cursor: pointer;
+   font-family: $font-primary;
+   font-size: map-get($sizes, base);
+   font-weight: 900; 
+   height: 7.3rem;
+   line-height: 7.3rem;
+   outline: none;
+   padding: 0 1.4rem;
+   width: 100%;
+   @include mq-min(sm) {
+      width: auto;
+   }
+ 
+   // Hierarchy
+   &.btn-default {
+      @include button( color(primary, base));
+      &.outline {
+         @include button( transparent, color(primary, base));
+         border: .13rem solid color(primary, base);
+         box-shadow: none;
+         &:hover, &:active {
+            @include button(color(primary, base));
+            box-shadow: none;
+         }
+      }
+   }
+   &.btn-icon{
+      @include button(color(grayscale, gray-1));
+      align-items: center;
+      display: inline-flex;
+      font-size: 0;
+      height: 45px;
+      justify-content: center;
+      padding: 0;
+      width: 45px;
+      i{
+         font-size: map-get($sizes, half);
+      }
+   }
+   &.btn-success,
+   &.btn-primary {
+      @include button(color(primary, base), color( grayscale, white ));
+      &.outline {
+         @include button( transparent, color(secondary, base));
+         border: .15rem solid color(secondary, base);
+         box-shadow: none;
+         &:hover, &:active {
+            @include button( color(secondary, base), color( grayscale, white ));
+         }
+      }
+   }
+
+   &.btn-secondary {
+      @include button(color(grayscale, white), color(secondary, base));
+      &.outline {
+         @include button( transparent, color(secondary, base));
+         border: .15rem solid color(secondary, base);
+         box-shadow: none;
+         &:hover, &:active {
+            @include button( color(secondary, base), color( grayscale, white ));
+         }
+      }
+   }
+
+   &.btn-link{
+      box-shadow: none;
+   }
+}
+ 
+@include mq-max(sm){
+   .btn.btn-icon{
+      height: 38px;
+      line-height: 38px;
+      width: 38px;
+      i{
+         font-size: 18px;
+      }
+   }
+}

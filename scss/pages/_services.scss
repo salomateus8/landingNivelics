@@ -1,0 +1,45 @@
+.services-section {
+    background-color: color( grayscale, white );
+    display: flex;
+    flex-direction: column;
+    min-width: 418px;
+    text-align: center;
+    &__title {
+        h2{
+            height: auto;
+            margin: 50px 0 50px 0;
+            min-width: 288px;
+            text-align: center;
+        }
+    }
+}
+
+.services {
+    padding-top: 20px;
+}
+
+.service {
+    width: 429px;
+    padding: 0 45px 0 45px;
+    img {
+        padding: 19px 0 19px 0;
+    }
+    @extend %subtitle;
+    p {
+        @extend %description;
+    }
+
+}
+
+@include mq-min(xl){
+    .services {
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        .service {
+            padding: 0 25px 0 25px;
+        }
+    }
+}

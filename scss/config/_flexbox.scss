@@ -1,0 +1,92 @@
+
+// Displays
+$dflexs: flex, inline-flex, block, inline-block, grid, none,;
+   @each $dflex in $dflexs {
+   .dc-#{$dflex}{
+      display: $dflex;
+   }
+}
+
+@include mq-min(sm) {
+  $d-sm: flex, block, grid, none, inline-block;
+       @each $d-sm in $d-sm {
+       .dc-sm-#{$d-sm}{
+          display: $d-sm;
+       }
+  }
+}
+
+@include mq-min(md) {
+  $d-ms: flex, block, grid, none,inline-block;
+       @each $d-ms in $d-ms {
+       .dc-md-#{$d-ms}{
+          display: $d-ms;
+       }
+  }
+}
+
+@include mq-min(lg) {
+  $d-ls: flex, block, grid, none,inline-block;
+       @each $d-ls in $d-ls {
+       .dc-lg-#{$d-ls}{
+          display: $d-ls;
+       }
+  }
+}
+
+@include mq-min(xl) {
+  $d-xl: flex, block, grid, none,inline-block;
+       @each $d-xl in $d-xl {
+       .dc-xl-#{$d-xl}{
+          display: $d-xl;
+       }
+  }
+}
+
+// Flex Flow Direction : applies to flex containers
+$directions: row, row-reverse, column, column-reverse;
+@each $dflex in $directions {
+   .dc-#{$dflex}{
+      display: $dflex;
+   }
+}
+
+// Axis Alignment : applies to flex containers
+$justifys: flex-start, flex-end, center, space-between, space-around, space-evenly;
+@each $justify in $justifys {
+   .jcc-#{$justify}{
+      justify-content: $justify;
+   }
+}
+
+// Cross-axis Alignment : applies to flex containers
+$aligns: flex-start, flex-end, center, baseline, stretch;
+@each $align in $aligns {
+   .aii-#{$align}{
+      align-items: $align;
+   }
+}
+
+// Packing Flex Lines : applies to multi-line flex containers
+$aligns: flex-start, flex-end, center, space-between, space-around, stretch;
+@each $align in $aligns {
+   .acc-#{$align}{
+      align-content: $align;
+   }
+}
+
+// Cross-axis Alignment : applies to flex containers
+$aligns: flex-start, flex-end, center, baseline, stretch;
+@each $align in $aligns {
+   .aii-#{$align}{
+      align-items: $align;
+   }
+}
+
+// Cross-axis Alignment : applies to flex items
+$aligns: flex-start, flex-end, center, baseline, stretch;
+@each $align in $aligns {
+   .ass-#{$align}{
+      align-self: $align;
+   }
+}

@@ -1,0 +1,107 @@
+*, 
+*:before, *:after {
+	box-sizing: border-box;
+}
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  /*background: red;*/
+  color:color(grayscale,gray-5);
+  font-family: $font-primary;
+  font-size: $font-size;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+p {
+  /*margin-bottom: map-get($sizes, "base");*/
+  margin-bottom: map-get($sizes, "thumb");
+}
+a{
+  color: color(primary, base);
+}
+h1, h3, h4, h5, h6{
+  font-family: $font-primary;
+  font-weight: bold;
+  line-height: 1;
+  /*margin-bottom: map-get($sizes, "half");*/
+  margin-bottom: map-get($sizes, "thumb");
+}
+h2 {
+  font-family: $font-primary;
+  font-weight: bold;
+  line-height: 1;
+}
+
+h1{
+  font-size: map-get($sizes, "thumb");
+  /*font-size: map-get($sizes, "half");*/
+}
+h2{
+  font-size: map-get($sizes, "medium");
+  /*font-size: map-get($sizes, "thumb");*/
+}
+h3{
+  /*font-size: map-get($sizes, "base");*/
+  font-size: map-get($sizes, "thumb");
+}
+h4{
+  /*font-size: map-get($sizes, "small");*/
+  font-size: map-get($sizes, "small");
+}
+h5{
+  font-size: map-get($sizes, "tiny");
+}
+h6{
+  font-size: map-get($sizes, "xsmall");
+}
+.main__title{
+  @extend %titles;
+}
+ol,
+ul{
+  /*margin-bottom: map-get($sizes, "base");*/
+  margin-bottom: map-get($sizes, "thumb");
+  /*padding-left: map-get($sizes, "half");*/
+  padding-left: map-get($sizes, "thumb");
+}
+
+@include mq-min(md){
+  .container{
+    max-width: 1140px;
+    padding: 0 20px;
+  }
+  h1{
+    /*font-size: map-get($sizes, "huge");*/
+    font-size: map-get($sizes, "huge");
+  }
+  h2{
+    /*font-size: map-get($sizes, "xlarge");*/
+    font-size: map-get($sizes, "huge");
+  }
+  h3{
+    /*font-size: map-get($sizes, "large");*/
+    font-size: map-get($sizes, "huge");
+  }
+  h4{
+    /*font-size: map-get($sizes, "medium");*/
+    font-size: map-get($sizes, "huge");
+  }
+  h5{
+    /*font-size: map-get($sizes, "half");*/
+    font-size: map-get($sizes, "huge");
+  }
+  h6{
+    /*font-size: map-get($sizes, "thumb");*/
+    font-size: map-get($sizes, "huge");
+  }
+}
