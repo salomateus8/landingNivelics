@@ -4,12 +4,15 @@
 .form-section {
     .form {
         background: color(grayscale, white);
-        margin: 158px 12px 0 12px;
-        padding: 30px 34px 30px 34px;
+        margin: 202px 12px 0 12px;
+        min-height: 1112px;
+        padding: 30px 0 30px 0;
+        text-align: center;
         h2 {
             font-size: 1.8rem;
             font-weight: 700;
             line-height: 21px;
+            margin: 0 34px 30px 34px;
             text-align: center;
         }
     }
@@ -19,6 +22,9 @@
     .form-section {
         .form {
             margin: 147px 12px 0 12px;
+            iframe {
+                width: 700px;
+            }
         }
     }
 }
@@ -31,14 +37,19 @@
             padding: 10px 21px 10px 21px;
             position: absolute;
             max-width: 361px;
-            max-height: 930px;
+            min-height: 560px;
             right: -30px;
             top: -690px;
             h2 {
                 font-size: 2.0rem;
                 font-weight: 700;
-                padding: 0 50px 0 64px;
+                margin: 30px 0;
+                padding: 0;
                 text-align: center;
+            }
+            iframe {
+                max-width: 335px;
+                max-height: 550px;
             }
         }
     }
@@ -60,6 +71,10 @@
                 font-weight: 700;
                 padding: 0 50px 0 64px;
                 text-align: center;
+            }
+            iframe {
+                max-height: 679px;
+                max-width: 635px;
             }
         }
     }
