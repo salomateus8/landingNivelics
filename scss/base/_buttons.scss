@@ -5,12 +5,12 @@
    cursor: pointer;
    font-family: $font-primary;
    font-size: map-get($sizes, base);
-   font-weight: 900; 
-   height: 7.3rem;
-   line-height: 7.3rem;
+   /*font-weight: 900;*/
+   /*height: 7.3rem;
+   line-height: 7.3rem;*/
    outline: none;
-   padding: 0 1.4rem;
-   width: 100%;
+   /*padding: 0 1.4rem;
+   width: 100%;*/
    @include mq-min(sm) {
       width: auto;
    }
@@ -43,10 +43,18 @@
    }
    &.btn-success,
    &.btn-primary {
-      @include button(color(primary, base), color( grayscale, white ));
+      @include button(color(grayscale, gray-1), color( primary, base ));
+      font-size: 1.6rem;
+      .text {
+         font-size: 1.6rem;
+      }
+      span {
+         font-size: 0.9rem;
+         padding: 0 0 0 10px;
+      }
       &.outline {
          @include button( transparent, color(secondary, base));
-         border: .15rem solid color(secondary, base);
+         border: none;
          box-shadow: none;
          &:hover, &:active {
             @include button( color(secondary, base), color( grayscale, white ));
@@ -55,7 +63,9 @@
    }
 
    &.btn-secondary {
-      @include button(color(grayscale, white), color(secondary, base));
+      @include button(color(grayscale, white), color(primary, dark));
+      font-weight: bold;
+      line-height: 7.3rem;
       &.outline {
          @include button( transparent, color(secondary, base));
          border: .15rem solid color(secondary, base);
@@ -67,7 +77,21 @@
    }
 
    &.btn-link{
-      box-shadow: none;
+      @include button(color(grayscale, gray-3), color(primary, base));
+      box-shadow: -2px -2px 2px 1px color(grayscale, white);
+      font-size: map-get($sizes, tiny);
+      font-family: $font-primary;
+      font-weight: 400; 
+      line-height: 7.3rem;
+      padding: 1.5rem 4.5rem;
+      &.outline {
+         @include button( transparent, color(secondary, base));
+         border: .15rem solid color(secondary, base);
+         box-shadow: none;
+         &:hover, &:active {
+            @include button( color(secondary, base), color( grayscale, white ));
+         }
+      }
    }
 }
  

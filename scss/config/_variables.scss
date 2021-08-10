@@ -13,7 +13,7 @@ $font-icon         : 'iconFont';
 
 $colors: (
    primary: (
-      base: #14AFDD,
+      base: #26A0C4,
       light: #D3E9FF,
       dark:#002452
    ),
@@ -25,13 +25,14 @@ $colors: (
    ),*/
    header: (
       color-1: #EDEDED
-   )
+   ),
 
    grayscale: (
       white:  #ffffff,
       gray-1: #f5f5f5,
       gray-2: #f6f7fB,
-      gray-3: #cccccc,
+      /*gray-3: #cccccc,*/
+      gray-3: #EDEDED,
       gray-4: #999999,
       gray-5: #303030,
       gray-6: #969696,

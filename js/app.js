@@ -1,8 +1,9 @@
 jQuery(document).ready(function() {
-    jQuery('.button__menu').click(function(){
-        jQuery(this).toggleClass('menu-open');
-        jQuery('header .cont-menu').toggleClass('open');
-        console.log("click");
+    jQuery('.more .btn').click(function(){
+        var txt = jQuery(this).closest( ".service" ).find(".service__body").is(':visible') ? 'CONOCER MÁS' : 'VER MENOS';
+        jQuery(this).find(".text").text(txt);
+        jQuery(this).closest( ".service" ).find(".service__body").slideToggle();
     });
+    /*console.log("click");*/
     //addClass, removeClass, each-->jQuery
 });

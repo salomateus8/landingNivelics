@@ -1,11 +1,32 @@
 %titles {
-    color: color( primary, base );
-    font-size: 4.0rem;
+    color: color( primary, dark );;
     font-weight: bold;
-    line-height: 2.6rem;
+    line-height: 2.9rem;
     margin-bottom: 0;
+    text-align: center;
 }
 
+%service {
+    background: color(grayscale, gray-1);
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 20px 0;
+}
+
+%images {
+    display: block;
+    margin: 0 auto;
+}
+
+%description {
+    text-align: center;
+    /* margin: 20px; */
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 20px 20px 0 20px;
+    line-height: 2.2rem;
+}
+/*
 %subtitle {
     color: color( primary, base );
     font-size: 2.9rem;
@@ -35,7 +56,7 @@
     margin-bottom: 0;
 }
 
-/*%botones {
+%botones {
     background-color: color( primary, base );
     border-radius: 50px;
     box-shadow: 0px 15px 6px rgba(0, 0, 0, 0.2);

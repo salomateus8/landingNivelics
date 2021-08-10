@@ -56,12 +56,12 @@
  @mixin button($bg, $color: color(grayscale, white)) {
     background: $bg;
     border-radius: 50px;
-    border: 2px solid color( borders, color-1 );
+    /*border: .15rem solid color(secondary, base);*/
     color: $color;
     font-family: $font-primary;
     font-size: map-get($sizes, base);
-    font-weight: bold; 
-    width: 28.7rem;
+    /*font-weight: bold;*/
+    /*width: 28.7rem;*/
     &:hover {
       background: darken($bg, 7%);
       transition: all 0.2s ease;

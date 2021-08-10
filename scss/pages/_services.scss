@@ -1,45 +1,215 @@
 .services-section {
-    background-color: color( grayscale, white );
-    display: flex;
-    flex-direction: column;
-    min-width: 418px;
-    text-align: center;
-    &__title {
-        h2{
-            height: auto;
-            margin: 50px 0 50px 0;
-            min-width: 288px;
+    background: color(grayscale, white);
+    border: 2px solid color(primary, dark);
+    border-radius: 10px;
+    margin: 55px 10px 0 10px;
+    .dots {
+        border-bottom: 2px solid color(primary, dark);
+        padding: 5px 0 6px 9px;
+    }
+    .container {
+        padding: 10px 20px 20px 20px;
+        .service {
+            @extend %service;
+            img {
+                @extend %images;
+            }
+            h3 {
+                margin: 22px 0 20px 0;
+            }
+            .more {
+                margin-right: 17px;
+                text-align: right;
+            }
+            .service__body {
+                display: none;
+                @extend %description;
+            }
+        }
+    }
+    .know {
+        margin: 10px 0 30px 0;
+        text-align: center;
+    }
+}
+
+@include mq-min(md) {
+    .services-section {
+        border: 0.9rem solid #002452;
+        border-radius: 2.3rem;
+        margin: 50px 42px 0 42px;
+        .dots {
+            border-bottom: 0.5rem solid color(primary, dark);
+            padding: 24px 0 19px 29px;
+            span {
+                margin: 0 4px;
+            }
+            .icon-dot:before {
+                font-size: 35px;
+            }
+        }
+        .container {
+            padding: 71px 0 0 0;
+            max-width: 58.0rem;
+            .services-section__title{
+                margin-bottom: 74px;
+                h2 {
+                    font-size: 2.8rem
+                }
+            }
+            .services {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                justify-content: space-between;
+                .service {
+                    margin-bottom: 6.2rem;
+                    max-width: 270px;
+                    min-height: 464px;
+                    .service__img {
+                        align-items: center;
+                        display: flex;
+                        min-height: 22.2rem;
+                    }
+                    h3 {
+                        line-height: 29px;
+                        margin: 22px 35px 20px 35px;
+                        min-height: 5.8rem;
+                    }
+                    .more {
+                        display: none;
+                    }
+                    .service__body {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .know {
+            margin-bottom: 50px;
             text-align: center;
         }
     }
 }
 
-.services {
-    padding-top: 20px;
-}
-
-.service {
-    width: 429px;
-    padding: 0 45px 0 45px;
-    img {
-        padding: 19px 0 19px 0;
+@include mq-min(lg){
+    .services-section {
+        border: 0.9rem solid #002452;
+        border-left-width: 5px;
+        border-right-width: 5px;
+        border-radius: 2.3rem;
+        margin: 50px 42px 0 42px;
+        .dots {
+            border-bottom: 0.5rem solid color(primary, dark);
+            padding: 24px 0 19px 29px;
+            span {
+                margin: 0 4px;
+            }
+            .icon-dot:before {
+                font-size: 35px;
+            }
+        }
+        .container {
+            padding: 71px 0 0 0;
+            max-width: 77.0rem;
+            .services-section__title{
+                margin-bottom: 74px;
+                h2 {
+                    font-size: 2.8rem
+                }
+            }
+            .services {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                justify-content: space-between;
+                .service {
+                    margin-bottom: 6.2rem;
+                    max-width: 350px;
+                    min-height: 464px;
+                    .service__img {
+                        align-items: center;
+                        display: flex;
+                        min-height: 22.2rem;
+                    }
+                    h3 {
+                        line-height: 29px;
+                        margin: 22px 35px 20px 35px;
+                        min-height: 5.8rem;
+                    }
+                    .more {
+                        display: none;
+                    }
+                    .service__body {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .know {
+            margin-bottom: 50px;
+            text-align: center;
+        }
     }
-    @extend %subtitle;
-    p {
-        @extend %description;
-    }
-
 }
 
 @include mq-min(xl){
-    .services {
-        border: none;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        justify-content: center;
-        .service {
-            padding: 0 25px 0 25px;
+    .services-section {
+        border: 0.9rem solid #002452;
+        border-left-width: 5px;
+        border-right-width: 5px;
+        border-radius: 2.3rem;
+        margin: 50px 42px 0 42px;
+        .dots {
+            border-bottom: 0.5rem solid color(primary, dark);
+            padding: 24px 0 19px 29px;
+            span {
+                margin: 0 4px;
+            }
+            .icon-dot:before {
+                font-size: 35px;
+            }
+        }
+        .container {
+            padding: 71px 0 0 0;
+            max-width: 125.0rem;
+            .services-section__title{
+                margin-bottom: 74px;
+                h2 {
+                    font-size: 2.8rem
+                }
+            }
+            .services {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                justify-content: space-between;
+                .service {
+                    margin-bottom: 6.2rem;
+                    max-width: 350px;
+                    min-height: 490px;
+                    .service__img {
+                        align-items: center;
+                        display: flex;
+                        min-height: 22.2rem;
+                    }
+                    h3 {
+                        line-height: 29px;
+                        margin: 22px 35px 20px 35px;
+                        min-height: 5.8rem;
+                    }
+                    .more {
+                        display: none;
+                    }
+                    .service__body {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .know {
+            margin-bottom: 50px;
+            text-align: center;
         }
     }
 }
