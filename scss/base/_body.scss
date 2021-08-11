@@ -39,7 +39,12 @@ h1, h4, h5, h6{
   /*margin-bottom: map-get($sizes, "half");*/
   margin-bottom: map-get($sizes, "thumb");
 }
-h2, h3{
+
+h2 {
+  @extend %title;
+}
+
+h3{
   /*color: color(primary, dark);
   font-family: $font-primary;
   font-weight: bold;

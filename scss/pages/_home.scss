@@ -45,8 +45,8 @@
     .banners {
         background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
         background-size: 78%;
-        min-height: 1009px;
-        min-width: 1008px;
+        min-height: 83.0rem;
+        min-width: 100.8rem;
         padding: 24px 42px 0 100px;
         .container {
             margin: 0;
@@ -98,8 +98,8 @@
 @include mq-min(xl){
     .banners {
         background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
-        background-size: 57.5%;
-        min-height: 1009px;
+        background-size: 58.5%;
+        min-height: 890px;
         min-width: 1008px;
         padding: 24px 42px 0 100px;
         .container {
@@ -130,15 +130,15 @@
             }
             .girl {
                 margin: 0;
-                right: -160px;
-                top: 80px;
+                right: -170px;
+                top: 240px;
                 z-index: 1;
             }
             .btn-contact {
                 position: absolute;
                 margin: 0;
-                right: -15px;
-                top: 135px;
+                right: -26px;
+                top: 302px;
                 z-index: 2;
                 .btn.btn-secondary {
                     font-size: 2.4rem;
