@@ -77,14 +77,68 @@
             .girl {
                 margin: 0;
                 right: -25px;
-                top: 80px;
+                top: 280px;
                 z-index: 1;
             }
             .btn-contact {
                 position: absolute;
                 margin: 0;
                 right: 130px;
-                top: 135px;
+                top: 340px;
+                z-index: 2;
+                .btn.btn-secondary {
+                    font-size: 2.4rem;
+                    padding: 1.4rem 2.4rem;
+                }
+            }
+        }
+    }
+}
+
+@include mq-min(xx){
+    .banners {
+        background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
+        background-size: 66%;
+        min-height: 890px;
+        min-width: 1008px;
+        padding: 24px 42px 0 100px;
+        .container {
+            margin: 0;
+            padding: 0;
+            .logo {
+                padding: 0;
+                img {
+                    display: inline-block;
+                    margin: 35px 47px 0 47px;
+                    min-width: 405px;
+                    min-height: 164px;
+                }
+            }
+            .img-banner {
+                display: block;
+                margin: 0 0 0 52px;
+                visibility: visible;
+            }
+            h1 {
+                color: color( grayscale, white );;
+                font-weight: 700;
+                font-size: 2.8rem;
+                line-height: 3.4rem;
+                margin: 30px 47px 0 0;
+                max-width: 492px;
+                text-align: center;
+            }
+            .girl {
+                margin: 0;
+                right: -170px;
+                top: 240px;
+                z-index: 1;
+            }
+            .btn-contact {
+                position: absolute;
+                margin: 0;
+                right: -26px;
+                top: 302px;
                 z-index: 2;
                 .btn.btn-secondary {
                     font-size: 2.4rem;

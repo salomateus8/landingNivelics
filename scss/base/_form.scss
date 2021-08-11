@@ -5,7 +5,7 @@
     .form {
         background: color(grayscale, white);
         margin: 202px 12px 0 12px;
-        min-height: 2312px;
+        min-height: 2050px;
         padding: 30px 0 0 0;
         text-align: center;
         h2 {
@@ -14,6 +14,9 @@
             line-height: 21px;
             margin: 0 34px 30px 34px;
             text-align: center;
+        }
+        iframe {
+            max-height: 1950px;
         }
     }
 }
@@ -41,7 +44,7 @@
             max-width: 361px;
             min-height: 560px;
             right: -30px;
-            top: -510px;
+            top: -310px;
             h2 {
                 font-size: 2.0rem;
                 font-weight: 700;
@@ -57,6 +60,32 @@
     }
 }
 
+@include mq-min(xx){
+    .form-section {
+        position: relative;
+        .form {
+            margin: inherit;
+            padding: 10px 21px 10px 21px;
+            position: absolute;
+            max-width: 661px;
+            min-height: 1582px;
+            right: -120px;
+            top: -400px;
+            h2 {
+                font-size: 2.0rem;
+                font-weight: 700;
+                padding: 0 50px 0 64px;
+                margin: 16px 0;
+                text-align: center;
+            }
+            iframe {
+                max-height: 1505px;
+                min-width: 620px;
+            }
+        }
+    }
+}
+
 @include mq-min(xl){
     .form-section {
         position: relative;
@@ -67,7 +96,7 @@
             max-width: 661px;
             min-height: 1582px;
             right: 25px;
-            top: -400px;
+            top: -410px;
             h2 {
                 font-size: 2.0rem;
                 font-weight: 700;

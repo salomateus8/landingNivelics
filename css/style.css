@@ -1514,7 +1514,7 @@ textarea:-ms-input-placeholder {
 .form-section .form {
   background: #ffffff;
   margin: 202px 12px 0 12px;
-  min-height: 2312px;
+  min-height: 2050px;
   padding: 30px 0 0 0;
   text-align: center;
 }
@@ -1526,25 +1526,29 @@ textarea:-ms-input-placeholder {
   margin: 0 34px 30px 34px;
   text-align: center;
 }
+/* line 18, ../scss/base/_form.scss */
+.form-section .form iframe {
+  max-height: 1950px;
+}
 
 @media (min-width: 768px) {
-  /* line 23, ../scss/base/_form.scss */
+  /* line 26, ../scss/base/_form.scss */
   .form-section .form {
     margin: 147px 12px 0 12px;
     min-height: 0;
   }
-  /* line 26, ../scss/base/_form.scss */
+  /* line 29, ../scss/base/_form.scss */
   .form-section .form iframe {
     min-width: 70.0rem;
     max-height: 150.0rem;
   }
 }
 @media (min-width: 960px) {
-  /* line 35, ../scss/base/_form.scss */
+  /* line 38, ../scss/base/_form.scss */
   .form-section {
     position: relative;
   }
-  /* line 37, ../scss/base/_form.scss */
+  /* line 40, ../scss/base/_form.scss */
   .form-section .form {
     margin: inherit;
     padding: 10px 21px 10px 21px;
@@ -1552,9 +1556,9 @@ textarea:-ms-input-placeholder {
     max-width: 361px;
     min-height: 560px;
     right: -30px;
-    top: -510px;
+    top: -310px;
   }
-  /* line 45, ../scss/base/_form.scss */
+  /* line 48, ../scss/base/_form.scss */
   .form-section .form h2 {
     font-size: 2.0rem;
     font-weight: 700;
@@ -1562,28 +1566,28 @@ textarea:-ms-input-placeholder {
     padding: 0;
     text-align: center;
   }
-  /* line 52, ../scss/base/_form.scss */
+  /* line 55, ../scss/base/_form.scss */
   .form-section .form iframe {
     min-width: 335px;
     max-height: 2300px;
   }
 }
-@media (min-width: 1440px) {
-  /* line 61, ../scss/base/_form.scss */
+@media (min-width: 1280px) {
+  /* line 64, ../scss/base/_form.scss */
   .form-section {
     position: relative;
   }
-  /* line 63, ../scss/base/_form.scss */
+  /* line 66, ../scss/base/_form.scss */
   .form-section .form {
     margin: inherit;
     padding: 10px 21px 10px 21px;
     position: absolute;
     max-width: 661px;
     min-height: 1582px;
-    right: 25px;
+    right: -120px;
     top: -400px;
   }
-  /* line 71, ../scss/base/_form.scss */
+  /* line 74, ../scss/base/_form.scss */
   .form-section .form h2 {
     font-size: 2.0rem;
     font-weight: 700;
@@ -1591,7 +1595,36 @@ textarea:-ms-input-placeholder {
     margin: 16px 0;
     text-align: center;
   }
-  /* line 78, ../scss/base/_form.scss */
+  /* line 81, ../scss/base/_form.scss */
+  .form-section .form iframe {
+    max-height: 1505px;
+    min-width: 620px;
+  }
+}
+@media (min-width: 1440px) {
+  /* line 90, ../scss/base/_form.scss */
+  .form-section {
+    position: relative;
+  }
+  /* line 92, ../scss/base/_form.scss */
+  .form-section .form {
+    margin: inherit;
+    padding: 10px 21px 10px 21px;
+    position: absolute;
+    max-width: 661px;
+    min-height: 1582px;
+    right: 25px;
+    top: -410px;
+  }
+  /* line 100, ../scss/base/_form.scss */
+  .form-section .form h2 {
+    font-size: 2.0rem;
+    font-weight: 700;
+    padding: 0 50px 0 64px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  /* line 107, ../scss/base/_form.scss */
   .form-section .form iframe {
     max-height: 1505px;
     min-width: 620px;
@@ -1964,7 +1997,7 @@ aside {
   .banners .container .girl {
     margin: 0;
     right: -25px;
-    top: 80px;
+    top: 280px;
     z-index: 1;
   }
   /* line 83, ../scss/pages/_home.scss */
@@ -1972,7 +2005,7 @@ aside {
     position: absolute;
     margin: 0;
     right: 130px;
-    top: 135px;
+    top: 340px;
     z-index: 2;
   }
   /* line 89, ../scss/pages/_home.scss */
@@ -1981,11 +2014,11 @@ aside {
     padding: 1.4rem 2.4rem;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   /* line 99, ../scss/pages/_home.scss */
   .banners {
     background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
-    background-size: 58.5%;
+    background-size: 66%;
     min-height: 890px;
     min-width: 1008px;
     padding: 24px 42px 0 100px;
@@ -2038,6 +2071,68 @@ aside {
     z-index: 2;
   }
   /* line 143, ../scss/pages/_home.scss */
+  .banners .container .btn-contact .btn.btn-secondary {
+    font-size: 2.4rem;
+    padding: 1.4rem 2.4rem;
+  }
+}
+@media (min-width: 1440px) {
+  /* line 153, ../scss/pages/_home.scss */
+  .banners {
+    background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
+    background-size: 58.5%;
+    min-height: 890px;
+    min-width: 1008px;
+    padding: 24px 42px 0 100px;
+  }
+  /* line 159, ../scss/pages/_home.scss */
+  .banners .container {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 162, ../scss/pages/_home.scss */
+  .banners .container .logo {
+    padding: 0;
+  }
+  /* line 164, ../scss/pages/_home.scss */
+  .banners .container .logo img {
+    display: inline-block;
+    margin: 35px 47px 0 47px;
+    min-width: 405px;
+    min-height: 164px;
+  }
+  /* line 171, ../scss/pages/_home.scss */
+  .banners .container .img-banner {
+    display: block;
+    margin: 0 0 0 52px;
+    visibility: visible;
+  }
+  /* line 176, ../scss/pages/_home.scss */
+  .banners .container h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    margin: 30px 47px 0 0;
+    max-width: 492px;
+    text-align: center;
+  }
+  /* line 185, ../scss/pages/_home.scss */
+  .banners .container .girl {
+    margin: 0;
+    right: -170px;
+    top: 240px;
+    z-index: 1;
+  }
+  /* line 191, ../scss/pages/_home.scss */
+  .banners .container .btn-contact {
+    position: absolute;
+    margin: 0;
+    right: -26px;
+    top: 302px;
+    z-index: 2;
+  }
+  /* line 197, ../scss/pages/_home.scss */
   .banners .container .btn-contact .btn.btn-secondary {
     font-size: 2.4rem;
     padding: 1.4rem 2.4rem;
@@ -2154,48 +2249,49 @@ aside {
 @media (min-width: 960px) {
   /* line 98, ../scss/pages/_services.scss */
   .services-section {
-    border: none;
+    border: 0.9rem solid #002452;
+    border-radius: 2.3rem;
     max-width: 59.0rem;
     margin: 20px 10px 0 23px;
     /*margin: 120px 42px 0 42px;*/
   }
-  /* line 103, ../scss/pages/_services.scss */
+  /* line 104, ../scss/pages/_services.scss */
   .services-section .dots {
     border-bottom: 0.5rem solid #002452;
     padding: 24px 0 19px 29px;
   }
-  /* line 106, ../scss/pages/_services.scss */
+  /* line 107, ../scss/pages/_services.scss */
   .services-section .dots span {
     margin: 0 4px;
   }
-  /* line 109, ../scss/pages/_services.scss */
+  /* line 110, ../scss/pages/_services.scss */
   .services-section .dots .icon-dot:before {
     font-size: 35px;
   }
-  /* line 113, ../scss/pages/_services.scss */
+  /* line 114, ../scss/pages/_services.scss */
   .services-section .container {
     padding: 0;
     max-width: 125.0rem;
   }
-  /* line 116, ../scss/pages/_services.scss */
+  /* line 117, ../scss/pages/_services.scss */
   .services-section .container .cards {
     padding: 15px 32px;
   }
-  /* line 118, ../scss/pages/_services.scss */
+  /* line 119, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title {
     margin: 20px 20px;
   }
-  /* line 120, ../scss/pages/_services.scss */
+  /* line 121, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title h2 {
     font-size: 2.8rem;
   }
-  /* line 125, ../scss/pages/_services.scss */
+  /* line 126, ../scss/pages/_services.scss */
   .services-section .container .services {
     display: block;
     /*justify-content: center;*
     justify-content: space-between;*/
   }
-  /* line 129, ../scss/pages/_services.scss */
+  /* line 130, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     align-items: center;
     display: flex;
@@ -2204,20 +2300,20 @@ aside {
     max-height: none;
     padding: 21px 20px 20px 20px;
   }
-  /* line 136, ../scss/pages/_services.scss */
+  /* line 137, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img {
     min-width: 26.0rem;
   }
-  /* line 138, ../scss/pages/_services.scss */
+  /* line 139, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img {
     min-height: 19.0rem;
   }
-  /* line 140, ../scss/pages/_services.scss */
+  /* line 141, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img img {
     height: 13.5rem;
     margin: 0;
   }
-  /* line 147, ../scss/pages/_services.scss */
+  /* line 148, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text h3 {
     line-height: 29px;
     margin: 0 0 13px 0;
@@ -2225,68 +2321,68 @@ aside {
     min-height: 0;
     text-align: left;
   }
-  /* line 154, ../scss/pages/_services.scss */
+  /* line 155, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .more {
     display: none;
   }
-  /* line 157, ../scss/pages/_services.scss */
+  /* line 158, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .service__body {
     display: block;
     margin: 0;
     max-width: 30.5rem;
     text-align: left;
   }
-  /* line 167, ../scss/pages/_services.scss */
+  /* line 168, ../scss/pages/_services.scss */
   .services-section .know {
     margin: 0;
     text-align: center;
   }
 }
-@media (min-width: 1440px) {
-  /* line 175, ../scss/pages/_services.scss */
+@media (min-width: 1280px) {
+  /* line 176, ../scss/pages/_services.scss */
   .services-section {
     border: none;
     max-width: 706px;
     margin: 28px 10px 0 23px;
     /*margin: 120px 42px 0 42px;*/
   }
-  /* line 180, ../scss/pages/_services.scss */
+  /* line 181, ../scss/pages/_services.scss */
   .services-section .dots {
-    border-bottom: 0.5rem solid #002452;
-    padding: 24px 0 19px 29px;
+    display: none;
+    border: none;
   }
-  /* line 183, ../scss/pages/_services.scss */
+  /* line 184, ../scss/pages/_services.scss */
   .services-section .dots span {
     margin: 0 4px;
   }
-  /* line 186, ../scss/pages/_services.scss */
+  /* line 187, ../scss/pages/_services.scss */
   .services-section .dots .icon-dot:before {
     font-size: 35px;
   }
-  /* line 190, ../scss/pages/_services.scss */
+  /* line 191, ../scss/pages/_services.scss */
   .services-section .container {
     padding: 0;
     max-width: 125.0rem;
   }
-  /* line 193, ../scss/pages/_services.scss */
+  /* line 194, ../scss/pages/_services.scss */
   .services-section .container .cards {
     padding: 15px 32px;
   }
-  /* line 195, ../scss/pages/_services.scss */
+  /* line 196, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title {
     margin: 20px 20px;
   }
-  /* line 197, ../scss/pages/_services.scss */
+  /* line 198, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title h2 {
     font-size: 2.8rem;
   }
-  /* line 202, ../scss/pages/_services.scss */
+  /* line 203, ../scss/pages/_services.scss */
   .services-section .container .services {
     display: block;
     /*justify-content: center;*
     justify-content: space-between;*/
   }
-  /* line 206, ../scss/pages/_services.scss */
+  /* line 207, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     align-items: center;
     display: flex;
@@ -2295,37 +2391,126 @@ aside {
     max-height: 19.0rem;
     padding: 21px 41px 27px 40px;
   }
-  /* line 213, ../scss/pages/_services.scss */
+  /* line 214, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img {
     min-width: 28.0rem;
   }
-  /* line 215, ../scss/pages/_services.scss */
+  /* line 216, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img {
     min-height: 22.2rem;
   }
-  /* line 217, ../scss/pages/_services.scss */
+  /* line 218, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img img {
     height: 13.5rem;
   }
-  /* line 223, ../scss/pages/_services.scss */
+  /* line 224, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text h3 {
     line-height: 29px;
     margin: 0 0 13px 0;
     max-width: 28.5rem;
     min-height: 0;
   }
-  /* line 229, ../scss/pages/_services.scss */
+  /* line 230, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .more {
     display: none;
   }
-  /* line 232, ../scss/pages/_services.scss */
+  /* line 233, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .service__body {
     display: block;
     margin: 0;
     max-width: 30.5rem;
     text-align: left;
   }
-  /* line 242, ../scss/pages/_services.scss */
+  /* line 243, ../scss/pages/_services.scss */
+  .services-section .know {
+    margin: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 1440px) {
+  /* line 251, ../scss/pages/_services.scss */
+  .services-section {
+    border: none;
+    max-width: 706px;
+    margin: 28px 10px 0 23px;
+    /*margin: 120px 42px 0 42px;*/
+  }
+  /* line 256, ../scss/pages/_services.scss */
+  .services-section .dots {
+    display: none;
+    border: none;
+  }
+  /* line 259, ../scss/pages/_services.scss */
+  .services-section .dots span {
+    margin: 0 4px;
+  }
+  /* line 262, ../scss/pages/_services.scss */
+  .services-section .dots .icon-dot:before {
+    font-size: 35px;
+  }
+  /* line 266, ../scss/pages/_services.scss */
+  .services-section .container {
+    padding: 0;
+    max-width: 125.0rem;
+  }
+  /* line 269, ../scss/pages/_services.scss */
+  .services-section .container .cards {
+    padding: 15px 32px;
+  }
+  /* line 271, ../scss/pages/_services.scss */
+  .services-section .container .cards .services-section__title {
+    margin: 20px 20px;
+  }
+  /* line 273, ../scss/pages/_services.scss */
+  .services-section .container .cards .services-section__title h2 {
+    font-size: 2.8rem;
+  }
+  /* line 278, ../scss/pages/_services.scss */
+  .services-section .container .services {
+    display: block;
+    /*justify-content: center;*
+    justify-content: space-between;*/
+  }
+  /* line 282, ../scss/pages/_services.scss */
+  .services-section .container .services .service {
+    align-items: center;
+    display: flex;
+    margin-bottom: 2.3rem;
+    max-width: 64.1rem;
+    max-height: 19.0rem;
+    padding: 21px 41px 27px 40px;
+  }
+  /* line 289, ../scss/pages/_services.scss */
+  .services-section .container .services .service .service-box__img {
+    min-width: 28.0rem;
+  }
+  /* line 291, ../scss/pages/_services.scss */
+  .services-section .container .services .service .service-box__img .service__img {
+    min-height: 22.2rem;
+  }
+  /* line 293, ../scss/pages/_services.scss */
+  .services-section .container .services .service .service-box__img .service__img img {
+    height: 13.5rem;
+  }
+  /* line 299, ../scss/pages/_services.scss */
+  .services-section .container .services .service .service-box__text h3 {
+    line-height: 29px;
+    margin: 0 0 13px 0;
+    max-width: 28.5rem;
+    min-height: 0;
+  }
+  /* line 305, ../scss/pages/_services.scss */
+  .services-section .container .services .service .service-box__text .more {
+    display: none;
+  }
+  /* line 308, ../scss/pages/_services.scss */
+  .services-section .container .services .service .service-box__text .service__body {
+    display: block;
+    margin: 0;
+    max-width: 30.5rem;
+    text-align: left;
+  }
+  /* line 318, ../scss/pages/_services.scss */
   .services-section .know {
     margin: 0;
     text-align: center;

@@ -96,7 +96,8 @@
 
 @include mq-min(lg){
     .services-section {
-        border: none;
+        border: 0.9rem solid #002452;
+        border-radius: 2.3rem;
         max-width: 59.0rem;
         margin: 20px 10px 0 23px;
         /*margin: 120px 42px 0 42px;*/
@@ -171,6 +172,81 @@
     }
 }
 
+@include mq-min(xx){
+    .services-section {
+        border: none;
+        max-width: 706px;
+        margin: 28px 10px 0 23px;
+        /*margin: 120px 42px 0 42px;*/
+        .dots {
+            display: none;
+            border: none;
+            span {
+                margin: 0 4px;
+            }
+            .icon-dot:before {
+                font-size: 35px;
+            }
+        }
+        .container {
+            padding: 0;
+            max-width: 125.0rem;
+            .cards {
+                padding: 15px 32px;
+                .services-section__title{
+                    margin: 20px 20px;
+                    h2 {
+                        font-size: 2.8rem
+                    }
+            }
+            }
+            .services {
+                display: block;
+                /*justify-content: center;*
+                justify-content: space-between;*/
+                .service {
+                    align-items: center;
+                    display: flex;
+                    margin-bottom: 2.3rem;
+                    max-width: 64.1rem;
+                    max-height: 19.0rem;
+                    padding: 21px 41px 27px 40px;
+                    .service-box__img {
+                        min-width: 28.0rem;
+                        .service__img {
+                            min-height: 22.2rem;
+                            img {
+                                height: 13.5rem;
+                            }
+                        }
+                    }
+                    .service-box__text {
+                        h3 {
+                            line-height: 29px;
+                            margin: 0 0 13px 0;
+                            max-width: 28.5rem;
+                            min-height: 0;
+                        }
+                        .more {
+                            display: none;
+                        }
+                        .service__body {
+                            display: block;
+                            margin: 0;
+                            max-width: 30.5rem;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+        .know {
+            margin: 0;
+            text-align: center;
+        }
+    }
+}
+
 @include mq-min(xl){
     .services-section {
         border: none;
@@ -178,8 +254,8 @@
         margin: 28px 10px 0 23px;
         /*margin: 120px 42px 0 42px;*/
         .dots {
-            border-bottom: 0.5rem solid color(primary, dark);
-            padding: 24px 0 19px 29px;
+            display: none;
+            border: none;
             span {
                 margin: 0 4px;
             }
