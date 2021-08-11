@@ -1514,7 +1514,7 @@ textarea:-ms-input-placeholder {
 .form-section .form {
   background: #ffffff;
   margin: 202px 12px 0 12px;
-  min-height: 2050px;
+  min-height: 205.0rem;
   padding: 30px 0 0 0;
   text-align: center;
 }
@@ -1522,13 +1522,13 @@ textarea:-ms-input-placeholder {
 .form-section .form h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 2.1rem;
   margin: 0 34px 30px 34px;
   text-align: center;
 }
 /* line 18, ../scss/base/_form.scss */
 .form-section .form iframe {
-  max-height: 1950px;
+  max-height: 195.0rem;
 }
 
 @media (min-width: 768px) {
@@ -1553,8 +1553,8 @@ textarea:-ms-input-placeholder {
     margin: inherit;
     padding: 10px 21px 10px 21px;
     position: absolute;
-    max-width: 361px;
-    min-height: 560px;
+    max-width: 36.1rem;
+    min-height: 56.0rem;
     right: -30px;
     top: -310px;
   }
@@ -1568,8 +1568,8 @@ textarea:-ms-input-placeholder {
   }
   /* line 55, ../scss/base/_form.scss */
   .form-section .form iframe {
-    min-width: 335px;
-    max-height: 2300px;
+    min-width: 33.5rem;
+    max-height: 230.0rem;
   }
 }
 @media (min-width: 1280px) {
@@ -1582,8 +1582,8 @@ textarea:-ms-input-placeholder {
     margin: inherit;
     padding: 10px 21px 10px 21px;
     position: absolute;
-    max-width: 661px;
-    min-height: 1582px;
+    max-width: 66.1rem;
+    min-height: 158.2rem;
     right: -120px;
     top: -400px;
   }
@@ -1597,8 +1597,8 @@ textarea:-ms-input-placeholder {
   }
   /* line 81, ../scss/base/_form.scss */
   .form-section .form iframe {
-    max-height: 1505px;
-    min-width: 620px;
+    max-height: 150.5rem;
+    min-width: 62.0rem;
   }
 }
 @media (min-width: 1440px) {
@@ -1611,8 +1611,8 @@ textarea:-ms-input-placeholder {
     margin: inherit;
     padding: 10px 21px 10px 21px;
     position: absolute;
-    max-width: 661px;
-    min-height: 1582px;
+    max-width: 66.1rem;
+    min-height: 158.2rem;
     right: 25px;
     top: -410px;
   }
@@ -1626,8 +1626,8 @@ textarea:-ms-input-placeholder {
   }
   /* line 107, ../scss/base/_form.scss */
   .form-section .form iframe {
-    max-height: 1505px;
-    min-width: 620px;
+    max-height: 150.5rem;
+    min-width: 62.0rem;
   }
 }
 /* line 1, ../scss/base/_links.scss */
@@ -1904,7 +1904,7 @@ aside {
 .banners {
   background: url("../assets/images/ellipse.svg") no-repeat bottom center;
   background-size: cover;
-  min-height: 329px;
+  min-height: 32.9rem;
 }
 /* line 5, ../scss/pages/_home.scss */
 .banners .banner {
@@ -1974,8 +1974,8 @@ aside {
   .banners .container .logo img {
     display: inline-block;
     margin: 35px 47px 0 47px;
-    min-width: 305px;
-    min-height: 64px;
+    min-width: 30.5rem;
+    min-height: 6.4rem;
   }
   /* line 63, ../scss/pages/_home.scss */
   .banners .container .img-banner {
@@ -1990,7 +1990,7 @@ aside {
     font-size: 2.8rem;
     line-height: 3.4rem;
     margin: 50px 47px 0 0;
-    max-width: 492px;
+    max-width: 49.2rem;
     text-align: center;
   }
   /* line 77, ../scss/pages/_home.scss */
@@ -2019,8 +2019,8 @@ aside {
   .banners {
     background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
     background-size: 66%;
-    min-height: 890px;
-    min-width: 1008px;
+    min-height: 89.0rem;
+    min-width: 100.8rem;
     padding: 24px 42px 0 100px;
   }
   /* line 105, ../scss/pages/_home.scss */
@@ -2036,8 +2036,8 @@ aside {
   .banners .container .logo img {
     display: inline-block;
     margin: 35px 47px 0 47px;
-    min-width: 405px;
-    min-height: 164px;
+    min-width: 40.5rem;
+    min-height: 16.4rem;
   }
   /* line 117, ../scss/pages/_home.scss */
   .banners .container .img-banner {
@@ -2052,7 +2052,7 @@ aside {
     font-size: 2.8rem;
     line-height: 3.4rem;
     margin: 30px 47px 0 0;
-    max-width: 492px;
+    max-width: 49.2rem;
     text-align: center;
   }
   /* line 131, ../scss/pages/_home.scss */
@@ -2081,8 +2081,8 @@ aside {
   .banners {
     background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
     background-size: 58.5%;
-    min-height: 890px;
-    min-width: 1008px;
+    min-height: 89.0rem;
+    min-width: 100.8rem;
     padding: 24px 42px 0 100px;
   }
   /* line 159, ../scss/pages/_home.scss */
@@ -2098,8 +2098,8 @@ aside {
   .banners .container .logo img {
     display: inline-block;
     margin: 35px 47px 0 47px;
-    min-width: 405px;
-    min-height: 164px;
+    min-width: 40.5rem;
+    min-height: 16.4rem;
   }
   /* line 171, ../scss/pages/_home.scss */
   .banners .container .img-banner {
@@ -2114,7 +2114,7 @@ aside {
     font-size: 2.8rem;
     line-height: 3.4rem;
     margin: 30px 47px 0 0;
-    max-width: 492px;
+    max-width: 49.2rem;
     text-align: center;
   }
   /* line 185, ../scss/pages/_home.scss */
@@ -2217,8 +2217,8 @@ aside {
   /* line 66, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     margin-bottom: 6.2rem;
-    max-width: 270px;
-    max-height: 464px;
+    max-width: 27.0rem;
+    max-height: 46.4rem;
   }
   /* line 70, ../scss/pages/_services.scss */
   .services-section .container .services .service .service__img {
@@ -2253,45 +2253,42 @@ aside {
     border-radius: 2.3rem;
     max-width: 59.0rem;
     margin: 20px 10px 0 23px;
-    /*margin: 120px 42px 0 42px;*/
   }
-  /* line 104, ../scss/pages/_services.scss */
+  /* line 103, ../scss/pages/_services.scss */
   .services-section .dots {
     border-bottom: 0.5rem solid #002452;
     padding: 24px 0 19px 29px;
   }
-  /* line 107, ../scss/pages/_services.scss */
+  /* line 106, ../scss/pages/_services.scss */
   .services-section .dots span {
     margin: 0 4px;
   }
-  /* line 110, ../scss/pages/_services.scss */
+  /* line 109, ../scss/pages/_services.scss */
   .services-section .dots .icon-dot:before {
     font-size: 35px;
   }
-  /* line 114, ../scss/pages/_services.scss */
+  /* line 113, ../scss/pages/_services.scss */
   .services-section .container {
     padding: 0;
     max-width: 125.0rem;
   }
-  /* line 117, ../scss/pages/_services.scss */
+  /* line 116, ../scss/pages/_services.scss */
   .services-section .container .cards {
     padding: 15px 32px;
   }
-  /* line 119, ../scss/pages/_services.scss */
+  /* line 118, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title {
     margin: 20px 20px;
   }
-  /* line 121, ../scss/pages/_services.scss */
+  /* line 120, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title h2 {
     font-size: 2.8rem;
   }
-  /* line 126, ../scss/pages/_services.scss */
+  /* line 125, ../scss/pages/_services.scss */
   .services-section .container .services {
     display: block;
-    /*justify-content: center;*
-    justify-content: space-between;*/
   }
-  /* line 130, ../scss/pages/_services.scss */
+  /* line 127, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     align-items: center;
     display: flex;
@@ -2300,20 +2297,20 @@ aside {
     max-height: none;
     padding: 21px 20px 20px 20px;
   }
-  /* line 137, ../scss/pages/_services.scss */
+  /* line 134, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img {
     min-width: 26.0rem;
   }
-  /* line 139, ../scss/pages/_services.scss */
+  /* line 136, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img {
     min-height: 19.0rem;
   }
-  /* line 141, ../scss/pages/_services.scss */
+  /* line 138, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img img {
     height: 13.5rem;
     margin: 0;
   }
-  /* line 148, ../scss/pages/_services.scss */
+  /* line 145, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text h3 {
     line-height: 29px;
     margin: 0 0 13px 0;
@@ -2321,68 +2318,66 @@ aside {
     min-height: 0;
     text-align: left;
   }
-  /* line 155, ../scss/pages/_services.scss */
+  /* line 152, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .more {
     display: none;
   }
-  /* line 158, ../scss/pages/_services.scss */
+  /* line 155, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .service__body {
     display: block;
     margin: 0;
     max-width: 30.5rem;
     text-align: left;
   }
-  /* line 168, ../scss/pages/_services.scss */
+  /* line 165, ../scss/pages/_services.scss */
   .services-section .know {
     margin: 0;
     text-align: center;
   }
 }
 @media (min-width: 1280px) {
-  /* line 176, ../scss/pages/_services.scss */
+  /* line 173, ../scss/pages/_services.scss */
   .services-section {
     border: none;
-    max-width: 706px;
+    max-width: 70.6rem;
     margin: 28px 10px 0 23px;
     /*margin: 120px 42px 0 42px;*/
   }
-  /* line 181, ../scss/pages/_services.scss */
+  /* line 178, ../scss/pages/_services.scss */
   .services-section .dots {
     display: none;
     border: none;
   }
-  /* line 184, ../scss/pages/_services.scss */
+  /* line 181, ../scss/pages/_services.scss */
   .services-section .dots span {
     margin: 0 4px;
   }
-  /* line 187, ../scss/pages/_services.scss */
+  /* line 184, ../scss/pages/_services.scss */
   .services-section .dots .icon-dot:before {
-    font-size: 35px;
+    font-size: 3.5rem;
   }
-  /* line 191, ../scss/pages/_services.scss */
+  /* line 188, ../scss/pages/_services.scss */
   .services-section .container {
     padding: 0;
     max-width: 125.0rem;
   }
-  /* line 194, ../scss/pages/_services.scss */
+  /* line 191, ../scss/pages/_services.scss */
   .services-section .container .cards {
     padding: 15px 32px;
   }
-  /* line 196, ../scss/pages/_services.scss */
+  /* line 193, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title {
     margin: 20px 20px;
   }
-  /* line 198, ../scss/pages/_services.scss */
+  /* line 195, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title h2 {
     font-size: 2.8rem;
   }
-  /* line 203, ../scss/pages/_services.scss */
+  /* line 200, ../scss/pages/_services.scss */
   .services-section .container .services {
     display: block;
-    /*justify-content: center;*
-    justify-content: space-between;*/
   }
-  /* line 207, ../scss/pages/_services.scss */
+  /* line 202, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     align-items: center;
     display: flex;
@@ -2391,87 +2386,84 @@ aside {
     max-height: 19.0rem;
     padding: 21px 41px 27px 40px;
   }
-  /* line 214, ../scss/pages/_services.scss */
+  /* line 209, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img {
     min-width: 28.0rem;
   }
-  /* line 216, ../scss/pages/_services.scss */
+  /* line 211, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img {
     min-height: 22.2rem;
   }
-  /* line 218, ../scss/pages/_services.scss */
+  /* line 213, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img img {
     height: 13.5rem;
   }
-  /* line 224, ../scss/pages/_services.scss */
+  /* line 219, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text h3 {
-    line-height: 29px;
+    line-height: 2.9rem;
     margin: 0 0 13px 0;
     max-width: 28.5rem;
     min-height: 0;
   }
-  /* line 230, ../scss/pages/_services.scss */
+  /* line 225, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .more {
     display: none;
   }
-  /* line 233, ../scss/pages/_services.scss */
+  /* line 228, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .service__body {
     display: block;
     margin: 0;
     max-width: 30.5rem;
     text-align: left;
   }
-  /* line 243, ../scss/pages/_services.scss */
+  /* line 238, ../scss/pages/_services.scss */
   .services-section .know {
     margin: 0;
     text-align: center;
   }
 }
 @media (min-width: 1440px) {
-  /* line 251, ../scss/pages/_services.scss */
+  /* line 246, ../scss/pages/_services.scss */
   .services-section {
     border: none;
-    max-width: 706px;
+    max-width: 70.6rem;
     margin: 28px 10px 0 23px;
-    /*margin: 120px 42px 0 42px;*/
   }
-  /* line 256, ../scss/pages/_services.scss */
+  /* line 250, ../scss/pages/_services.scss */
   .services-section .dots {
     display: none;
     border: none;
   }
-  /* line 259, ../scss/pages/_services.scss */
+  /* line 253, ../scss/pages/_services.scss */
   .services-section .dots span {
     margin: 0 4px;
   }
-  /* line 262, ../scss/pages/_services.scss */
+  /* line 256, ../scss/pages/_services.scss */
   .services-section .dots .icon-dot:before {
-    font-size: 35px;
+    font-size: 3.5rem;
   }
-  /* line 266, ../scss/pages/_services.scss */
+  /* line 260, ../scss/pages/_services.scss */
   .services-section .container {
     padding: 0;
     max-width: 125.0rem;
   }
-  /* line 269, ../scss/pages/_services.scss */
+  /* line 263, ../scss/pages/_services.scss */
   .services-section .container .cards {
     padding: 15px 32px;
   }
-  /* line 271, ../scss/pages/_services.scss */
+  /* line 265, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title {
     margin: 20px 20px;
   }
-  /* line 273, ../scss/pages/_services.scss */
+  /* line 267, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title h2 {
     font-size: 2.8rem;
   }
-  /* line 278, ../scss/pages/_services.scss */
+  /* line 272, ../scss/pages/_services.scss */
   .services-section .container .services {
     display: block;
-    /*justify-content: center;*
-    justify-content: space-between;*/
   }
-  /* line 282, ../scss/pages/_services.scss */
+  /* line 274, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     align-items: center;
     display: flex;
@@ -2480,37 +2472,37 @@ aside {
     max-height: 19.0rem;
     padding: 21px 41px 27px 40px;
   }
-  /* line 289, ../scss/pages/_services.scss */
+  /* line 281, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img {
     min-width: 28.0rem;
   }
-  /* line 291, ../scss/pages/_services.scss */
+  /* line 283, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img {
     min-height: 22.2rem;
   }
-  /* line 293, ../scss/pages/_services.scss */
+  /* line 285, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img img {
     height: 13.5rem;
   }
-  /* line 299, ../scss/pages/_services.scss */
+  /* line 291, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text h3 {
-    line-height: 29px;
+    line-height: 2.9rem;
     margin: 0 0 13px 0;
     max-width: 28.5rem;
     min-height: 0;
   }
-  /* line 305, ../scss/pages/_services.scss */
+  /* line 297, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .more {
     display: none;
   }
-  /* line 308, ../scss/pages/_services.scss */
+  /* line 300, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .service__body {
     display: block;
     margin: 0;
     max-width: 30.5rem;
     text-align: left;
   }
-  /* line 318, ../scss/pages/_services.scss */
+  /* line 310, ../scss/pages/_services.scss */
   .services-section .know {
     margin: 0;
     text-align: center;

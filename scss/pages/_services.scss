@@ -65,8 +65,8 @@
                 justify-content: space-between;
                 .service {
                     margin-bottom: 6.2rem;
-                    max-width: 270px;
-                    max-height: 464px;
+                    max-width: 27.0rem;
+                    max-height: 46.4rem;
                     .service__img {
                         align-items: center;
                         display: flex;
@@ -100,7 +100,6 @@
         border-radius: 2.3rem;
         max-width: 59.0rem;
         margin: 20px 10px 0 23px;
-        /*margin: 120px 42px 0 42px;*/
         .dots {
             border-bottom: 0.5rem solid color(primary, dark);
             padding: 24px 0 19px 29px;
@@ -125,8 +124,6 @@
             }
             .services {
                 display: block;
-                /*justify-content: center;*
-                justify-content: space-between;*/
                 .service {
                     align-items: center;
                     display: flex;
@@ -175,7 +172,7 @@
 @include mq-min(xx){
     .services-section {
         border: none;
-        max-width: 706px;
+        max-width: 70.6rem;
         margin: 28px 10px 0 23px;
         /*margin: 120px 42px 0 42px;*/
         .dots {
@@ -185,7 +182,7 @@
                 margin: 0 4px;
             }
             .icon-dot:before {
-                font-size: 35px;
+                font-size: 3.5rem;
             }
         }
         .container {
@@ -196,14 +193,12 @@
                 .services-section__title{
                     margin: 20px 20px;
                     h2 {
-                        font-size: 2.8rem
+                        font-size: 2.8rem;
                     }
-            }
+                }
             }
             .services {
                 display: block;
-                /*justify-content: center;*
-                justify-content: space-between;*/
                 .service {
                     align-items: center;
                     display: flex;
@@ -222,7 +217,7 @@
                     }
                     .service-box__text {
                         h3 {
-                            line-height: 29px;
+                            line-height: 2.9rem;
                             margin: 0 0 13px 0;
                             max-width: 28.5rem;
                             min-height: 0;
@@ -250,9 +245,8 @@
 @include mq-min(xl){
     .services-section {
         border: none;
-        max-width: 706px;
+        max-width: 70.6rem;
         margin: 28px 10px 0 23px;
-        /*margin: 120px 42px 0 42px;*/
         .dots {
             display: none;
             border: none;
@@ -260,7 +254,7 @@
                 margin: 0 4px;
             }
             .icon-dot:before {
-                font-size: 35px;
+                font-size: 3.5rem;
             }
         }
         .container {
@@ -271,14 +265,12 @@
                 .services-section__title{
                     margin: 20px 20px;
                     h2 {
-                        font-size: 2.8rem
+                        font-size: 2.8rem;
                     }
-            }
+                }
             }
             .services {
                 display: block;
-                /*justify-content: center;*
-                justify-content: space-between;*/
                 .service {
                     align-items: center;
                     display: flex;
@@ -297,7 +289,7 @@
                     }
                     .service-box__text {
                         h3 {
-                            line-height: 29px;
+                            line-height: 2.9rem;
                             margin: 0 0 13px 0;
                             max-width: 28.5rem;
                             min-height: 0;
