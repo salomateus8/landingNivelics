@@ -1594,7 +1594,7 @@ textarea:-ms-input-placeholder {
   /* line 78, ../scss/base/_form.scss */
   .form-section .form iframe {
     max-height: 1505px;
-    max-width: 635px;
+    min-width: 620px;
   }
 }
 /* line 1, ../scss/base/_links.scss */
