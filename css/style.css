@@ -1544,50 +1544,33 @@ textarea:-ms-input-placeholder {
   }
 }
 @media (min-width: 960px) {
-  /* line 38, ../scss/base/_form.scss */
-  .form-section {
-    position: relative;
-  }
-  /* line 40, ../scss/base/_form.scss */
+  /* line 39, ../scss/base/_form.scss */
   .form-section .form {
-    margin: inherit;
-    padding: 10px 21px 10px 21px;
-    position: absolute;
-    max-width: 36.1rem;
-    min-height: 56.0rem;
-    right: -30px;
-    top: -310px;
+    margin: 147px 12px 0 12px;
+    min-height: 0;
   }
-  /* line 48, ../scss/base/_form.scss */
-  .form-section .form h2 {
-    font-size: 2.0rem;
-    font-weight: 700;
-    margin: 30px 0;
-    padding: 0;
-    text-align: center;
-  }
-  /* line 55, ../scss/base/_form.scss */
+  /* line 42, ../scss/base/_form.scss */
   .form-section .form iframe {
-    min-width: 33.5rem;
-    max-height: 230.0rem;
+    min-width: 93.0rem;
+    max-height: 130.0rem;
   }
 }
 @media (min-width: 1280px) {
-  /* line 64, ../scss/base/_form.scss */
+  /* line 52, ../scss/base/_form.scss */
   .form-section {
     position: relative;
   }
-  /* line 66, ../scss/base/_form.scss */
+  /* line 54, ../scss/base/_form.scss */
   .form-section .form {
     margin: inherit;
     padding: 10px 21px 10px 21px;
     position: absolute;
-    max-width: 66.1rem;
+    max-width: 60rem;
     min-height: 158.2rem;
-    right: -120px;
-    top: -400px;
+    right: 0;
+    top: -410px;
   }
-  /* line 74, ../scss/base/_form.scss */
+  /* line 62, ../scss/base/_form.scss */
   .form-section .form h2 {
     font-size: 2.0rem;
     font-weight: 700;
@@ -1595,18 +1578,18 @@ textarea:-ms-input-placeholder {
     margin: 16px 0;
     text-align: center;
   }
-  /* line 81, ../scss/base/_form.scss */
+  /* line 69, ../scss/base/_form.scss */
   .form-section .form iframe {
     max-height: 150.5rem;
-    min-width: 62.0rem;
+    min-width: 50rem;
   }
 }
 @media (min-width: 1440px) {
-  /* line 90, ../scss/base/_form.scss */
+  /* line 78, ../scss/base/_form.scss */
   .form-section {
     position: relative;
   }
-  /* line 92, ../scss/base/_form.scss */
+  /* line 80, ../scss/base/_form.scss */
   .form-section .form {
     margin: inherit;
     padding: 10px 21px 10px 21px;
@@ -1616,7 +1599,7 @@ textarea:-ms-input-placeholder {
     right: 25px;
     top: -410px;
   }
-  /* line 100, ../scss/base/_form.scss */
+  /* line 88, ../scss/base/_form.scss */
   .form-section .form h2 {
     font-size: 2.0rem;
     font-weight: 700;
@@ -1624,7 +1607,7 @@ textarea:-ms-input-placeholder {
     margin: 16px 0;
     text-align: center;
   }
-  /* line 107, ../scss/base/_form.scss */
+  /* line 95, ../scss/base/_form.scss */
   .form-section .form iframe {
     max-height: 150.5rem;
     min-width: 62.0rem;
@@ -1955,67 +1938,63 @@ aside {
 @media (min-width: 960px) {
   /* line 45, ../scss/pages/_home.scss */
   .banners {
-    background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
-    background-size: 78%;
-    min-height: 83.0rem;
-    min-width: 100.8rem;
-    padding: 24px 42px 0 100px;
+    background: url("../assets/images/ellipse.svg") no-repeat bottom center;
+    background-size: cover;
+    min-height: 32.9rem;
+  }
+  /* line 49, ../scss/pages/_home.scss */
+  .banners .banner {
+    position: relative;
   }
   /* line 51, ../scss/pages/_home.scss */
-  .banners .container {
-    margin: 0;
-    padding: 0;
+  .banners .banner .logo {
+    padding: 50px 76px 0 76px;
+    align-self: centercom;
   }
   /* line 54, ../scss/pages/_home.scss */
-  .banners .container .logo {
-    padding: 0;
-  }
-  /* line 56, ../scss/pages/_home.scss */
-  .banners .container .logo img {
-    display: inline-block;
-    margin: 35px 47px 0 47px;
-    min-width: 30.5rem;
-    min-height: 6.4rem;
-  }
-  /* line 63, ../scss/pages/_home.scss */
-  .banners .container .img-banner {
+  .banners .banner .logo img {
     display: block;
-    margin: 50px 0 0 52px;
-    visibility: visible;
+    margin: 0 auto;
   }
-  /* line 68, ../scss/pages/_home.scss */
-  .banners .container h1 {
+  /* line 59, ../scss/pages/_home.scss */
+  .banners .banner .img-banner {
+    display: none;
+  }
+  /* line 62, ../scss/pages/_home.scss */
+  .banners .banner__title {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  /* line 66, ../scss/pages/_home.scss */
+  .banners .banner h1 {
     color: #ffffff;
     font-weight: 700;
-    font-size: 2.8rem;
-    line-height: 3.4rem;
-    margin: 50px 47px 0 0;
-    max-width: 49.2rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin: 50px 47px 0 46px;
     text-align: center;
   }
-  /* line 77, ../scss/pages/_home.scss */
-  .banners .container .girl {
-    margin: 0;
-    right: -25px;
-    top: 280px;
-    z-index: 1;
-  }
-  /* line 83, ../scss/pages/_home.scss */
-  .banners .container .btn-contact {
+  /* line 74, ../scss/pages/_home.scss */
+  .banners .banner .girl {
     position: absolute;
-    margin: 0;
-    right: 130px;
-    top: 340px;
-    z-index: 2;
+    display: flex;
+    margin: 69px 0 0 54px;
+    right: 1px;
   }
-  /* line 89, ../scss/pages/_home.scss */
-  .banners .container .btn-contact .btn.btn-secondary {
+  /* line 80, ../scss/pages/_home.scss */
+  .banners .banner .btn-contact {
+    position: absolute;
+    margin: 126px 0 0 18px;
+    right: 150px;
+  }
+  /* line 84, ../scss/pages/_home.scss */
+  .banners .banner .btn-contact .btn.btn-secondary {
     font-size: 2.4rem;
     padding: 1.4rem 2.4rem;
   }
 }
 @media (min-width: 1280px) {
-  /* line 99, ../scss/pages/_home.scss */
+  /* line 94, ../scss/pages/_home.scss */
   .banners {
     background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
     background-size: 66%;
@@ -2023,30 +2002,34 @@ aside {
     min-width: 100.8rem;
     padding: 24px 42px 0 100px;
   }
-  /* line 105, ../scss/pages/_home.scss */
+  /* line 100, ../scss/pages/_home.scss */
   .banners .container {
     margin: 0;
     padding: 0;
   }
-  /* line 108, ../scss/pages/_home.scss */
+  /* line 103, ../scss/pages/_home.scss */
   .banners .container .logo {
     padding: 0;
   }
-  /* line 110, ../scss/pages/_home.scss */
+  /* line 105, ../scss/pages/_home.scss */
   .banners .container .logo img {
     display: inline-block;
     margin: 35px 47px 0 47px;
     min-width: 40.5rem;
     min-height: 16.4rem;
   }
-  /* line 117, ../scss/pages/_home.scss */
+  /* line 112, ../scss/pages/_home.scss */
   .banners .container .img-banner {
     display: block;
     margin: 0 0 0 52px;
     visibility: visible;
   }
-  /* line 122, ../scss/pages/_home.scss */
-  .banners .container h1 {
+  /* line 117, ../scss/pages/_home.scss */
+  .banners .container .banner__title {
+    margin: 0;
+  }
+  /* line 119, ../scss/pages/_home.scss */
+  .banners .container .banner__title h1 {
     color: #ffffff;
     font-weight: 700;
     font-size: 2.8rem;
@@ -2055,29 +2038,29 @@ aside {
     max-width: 49.2rem;
     text-align: center;
   }
-  /* line 131, ../scss/pages/_home.scss */
+  /* line 129, ../scss/pages/_home.scss */
   .banners .container .girl {
     margin: 0;
-    right: -170px;
+    right: 0;
     top: 240px;
     z-index: 1;
   }
-  /* line 137, ../scss/pages/_home.scss */
+  /* line 135, ../scss/pages/_home.scss */
   .banners .container .btn-contact {
     position: absolute;
     margin: 0;
-    right: -26px;
-    top: 302px;
+    right: 150px;
+    top: 300px;
     z-index: 2;
   }
-  /* line 143, ../scss/pages/_home.scss */
+  /* line 141, ../scss/pages/_home.scss */
   .banners .container .btn-contact .btn.btn-secondary {
     font-size: 2.4rem;
     padding: 1.4rem 2.4rem;
   }
 }
 @media (min-width: 1440px) {
-  /* line 153, ../scss/pages/_home.scss */
+  /* line 151, ../scss/pages/_home.scss */
   .banners {
     background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
     background-size: 58.5%;
@@ -2085,29 +2068,29 @@ aside {
     min-width: 100.8rem;
     padding: 24px 42px 0 100px;
   }
-  /* line 159, ../scss/pages/_home.scss */
+  /* line 157, ../scss/pages/_home.scss */
   .banners .container {
     margin: 0;
     padding: 0;
   }
-  /* line 162, ../scss/pages/_home.scss */
+  /* line 160, ../scss/pages/_home.scss */
   .banners .container .logo {
     padding: 0;
   }
-  /* line 164, ../scss/pages/_home.scss */
+  /* line 162, ../scss/pages/_home.scss */
   .banners .container .logo img {
     display: inline-block;
     margin: 35px 47px 0 47px;
     min-width: 40.5rem;
     min-height: 16.4rem;
   }
-  /* line 171, ../scss/pages/_home.scss */
+  /* line 169, ../scss/pages/_home.scss */
   .banners .container .img-banner {
     display: block;
     margin: 0 0 0 52px;
     visibility: visible;
   }
-  /* line 176, ../scss/pages/_home.scss */
+  /* line 174, ../scss/pages/_home.scss */
   .banners .container h1 {
     color: #ffffff;
     font-weight: 700;
@@ -2117,14 +2100,14 @@ aside {
     max-width: 49.2rem;
     text-align: center;
   }
-  /* line 185, ../scss/pages/_home.scss */
+  /* line 183, ../scss/pages/_home.scss */
   .banners .container .girl {
     margin: 0;
     right: -170px;
     top: 240px;
     z-index: 1;
   }
-  /* line 191, ../scss/pages/_home.scss */
+  /* line 189, ../scss/pages/_home.scss */
   .banners .container .btn-contact {
     position: absolute;
     margin: 0;
@@ -2132,7 +2115,7 @@ aside {
     top: 302px;
     z-index: 2;
   }
-  /* line 197, ../scss/pages/_home.scss */
+  /* line 195, ../scss/pages/_home.scss */
   .banners .container .btn-contact .btn.btn-secondary {
     font-size: 2.4rem;
     padding: 1.4rem 2.4rem;
@@ -2247,223 +2230,146 @@ aside {
   }
 }
 @media (min-width: 960px) {
-  /* line 98, ../scss/pages/_services.scss */
-  .services-section {
-    border: 0.9rem solid #002452;
-    border-radius: 2.3rem;
-    max-width: 59.0rem;
-    margin: 20px 10px 0 23px;
-  }
-  /* line 103, ../scss/pages/_services.scss */
-  .services-section .dots {
-    border-bottom: 0.5rem solid #002452;
-    padding: 24px 0 19px 29px;
-  }
-  /* line 106, ../scss/pages/_services.scss */
-  .services-section .dots span {
-    margin: 0 4px;
-  }
-  /* line 109, ../scss/pages/_services.scss */
-  .services-section .dots .icon-dot:before {
-    font-size: 35px;
-  }
-  /* line 113, ../scss/pages/_services.scss */
+  /* line 99, ../scss/pages/_services.scss */
   .services-section .container {
-    padding: 0;
-    max-width: 125.0rem;
+    max-width: 67.0rem;
   }
-  /* line 116, ../scss/pages/_services.scss */
-  .services-section .container .cards {
-    padding: 15px 32px;
-  }
-  /* line 118, ../scss/pages/_services.scss */
-  .services-section .container .cards .services-section__title {
-    margin: 20px 20px;
-  }
-  /* line 120, ../scss/pages/_services.scss */
-  .services-section .container .cards .services-section__title h2 {
-    font-size: 2.8rem;
-  }
-  /* line 125, ../scss/pages/_services.scss */
-  .services-section .container .services {
-    display: block;
-  }
-  /* line 127, ../scss/pages/_services.scss */
+  /* line 102, ../scss/pages/_services.scss */
   .services-section .container .services .service {
-    align-items: center;
-    display: flex;
-    margin-bottom: 2.3rem;
-    max-width: 64.1rem;
-    max-height: none;
-    padding: 21px 20px 20px 20px;
-  }
-  /* line 134, ../scss/pages/_services.scss */
-  .services-section .container .services .service .service-box__img {
-    min-width: 26.0rem;
-  }
-  /* line 136, ../scss/pages/_services.scss */
-  .services-section .container .services .service .service-box__img .service__img {
-    min-height: 19.0rem;
-  }
-  /* line 138, ../scss/pages/_services.scss */
-  .services-section .container .services .service .service-box__img .service__img img {
-    height: 13.5rem;
-    margin: 0;
-  }
-  /* line 145, ../scss/pages/_services.scss */
-  .services-section .container .services .service .service-box__text h3 {
-    line-height: 29px;
-    margin: 0 0 13px 0;
-    max-width: 28.5rem;
-    min-height: 0;
-    text-align: left;
-  }
-  /* line 152, ../scss/pages/_services.scss */
-  .services-section .container .services .service .service-box__text .more {
-    display: none;
-  }
-  /* line 155, ../scss/pages/_services.scss */
-  .services-section .container .services .service .service-box__text .service__body {
-    display: block;
-    margin: 0;
-    max-width: 30.5rem;
-    text-align: left;
-  }
-  /* line 165, ../scss/pages/_services.scss */
-  .services-section .know {
-    margin: 0;
-    text-align: center;
+    max-width: 30.0rem;
+    max-height: 56.4rem;
   }
 }
 @media (min-width: 1280px) {
-  /* line 173, ../scss/pages/_services.scss */
+  /* line 112, ../scss/pages/_services.scss */
   .services-section {
     border: none;
-    max-width: 70.6rem;
+    max-width: 64.6rem;
     margin: 28px 10px 0 23px;
     /*margin: 120px 42px 0 42px;*/
   }
-  /* line 178, ../scss/pages/_services.scss */
+  /* line 117, ../scss/pages/_services.scss */
   .services-section .dots {
     display: none;
     border: none;
   }
-  /* line 181, ../scss/pages/_services.scss */
+  /* line 120, ../scss/pages/_services.scss */
   .services-section .dots span {
     margin: 0 4px;
   }
-  /* line 184, ../scss/pages/_services.scss */
+  /* line 123, ../scss/pages/_services.scss */
   .services-section .dots .icon-dot:before {
     font-size: 3.5rem;
   }
-  /* line 188, ../scss/pages/_services.scss */
+  /* line 127, ../scss/pages/_services.scss */
   .services-section .container {
     padding: 0;
     max-width: 125.0rem;
   }
-  /* line 191, ../scss/pages/_services.scss */
+  /* line 130, ../scss/pages/_services.scss */
   .services-section .container .cards {
     padding: 15px 32px;
   }
-  /* line 193, ../scss/pages/_services.scss */
+  /* line 132, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title {
     margin: 20px 20px;
   }
-  /* line 195, ../scss/pages/_services.scss */
+  /* line 134, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title h2 {
     font-size: 2.8rem;
   }
-  /* line 200, ../scss/pages/_services.scss */
+  /* line 139, ../scss/pages/_services.scss */
   .services-section .container .services {
     display: block;
   }
-  /* line 202, ../scss/pages/_services.scss */
+  /* line 141, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     align-items: center;
     display: flex;
     margin-bottom: 2.3rem;
     max-width: 64.1rem;
     max-height: 19.0rem;
-    padding: 21px 41px 27px 40px;
+    padding: 21px 11px 27px 5px;
   }
-  /* line 209, ../scss/pages/_services.scss */
+  /* line 148, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img {
-    min-width: 28.0rem;
+    min-width: 27.0rem;
   }
-  /* line 211, ../scss/pages/_services.scss */
+  /* line 150, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img {
     min-height: 22.2rem;
   }
-  /* line 213, ../scss/pages/_services.scss */
+  /* line 152, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img img {
     height: 13.5rem;
   }
-  /* line 219, ../scss/pages/_services.scss */
+  /* line 158, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text h3 {
     line-height: 2.9rem;
     margin: 0 0 13px 0;
     max-width: 28.5rem;
     min-height: 0;
+    text-align: left;
   }
-  /* line 225, ../scss/pages/_services.scss */
+  /* line 165, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .more {
     display: none;
   }
-  /* line 228, ../scss/pages/_services.scss */
+  /* line 168, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .service__body {
     display: block;
     margin: 0;
     max-width: 30.5rem;
     text-align: left;
   }
-  /* line 238, ../scss/pages/_services.scss */
+  /* line 178, ../scss/pages/_services.scss */
   .services-section .know {
     margin: 0;
     text-align: center;
   }
 }
 @media (min-width: 1440px) {
-  /* line 246, ../scss/pages/_services.scss */
+  /* line 186, ../scss/pages/_services.scss */
   .services-section {
     border: none;
     max-width: 70.6rem;
     margin: 28px 10px 0 23px;
   }
-  /* line 250, ../scss/pages/_services.scss */
+  /* line 190, ../scss/pages/_services.scss */
   .services-section .dots {
     display: none;
     border: none;
   }
-  /* line 253, ../scss/pages/_services.scss */
+  /* line 193, ../scss/pages/_services.scss */
   .services-section .dots span {
     margin: 0 4px;
   }
-  /* line 256, ../scss/pages/_services.scss */
+  /* line 196, ../scss/pages/_services.scss */
   .services-section .dots .icon-dot:before {
     font-size: 3.5rem;
   }
-  /* line 260, ../scss/pages/_services.scss */
+  /* line 200, ../scss/pages/_services.scss */
   .services-section .container {
     padding: 0;
     max-width: 125.0rem;
   }
-  /* line 263, ../scss/pages/_services.scss */
+  /* line 203, ../scss/pages/_services.scss */
   .services-section .container .cards {
     padding: 15px 32px;
   }
-  /* line 265, ../scss/pages/_services.scss */
+  /* line 205, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title {
     margin: 20px 20px;
   }
-  /* line 267, ../scss/pages/_services.scss */
+  /* line 207, ../scss/pages/_services.scss */
   .services-section .container .cards .services-section__title h2 {
     font-size: 2.8rem;
   }
-  /* line 272, ../scss/pages/_services.scss */
+  /* line 212, ../scss/pages/_services.scss */
   .services-section .container .services {
     display: block;
   }
-  /* line 274, ../scss/pages/_services.scss */
+  /* line 214, ../scss/pages/_services.scss */
   .services-section .container .services .service {
     align-items: center;
     display: flex;
@@ -2472,37 +2378,37 @@ aside {
     max-height: 19.0rem;
     padding: 21px 41px 27px 40px;
   }
-  /* line 281, ../scss/pages/_services.scss */
+  /* line 221, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img {
     min-width: 28.0rem;
   }
-  /* line 283, ../scss/pages/_services.scss */
+  /* line 223, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img {
     min-height: 22.2rem;
   }
-  /* line 285, ../scss/pages/_services.scss */
+  /* line 225, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__img .service__img img {
     height: 13.5rem;
   }
-  /* line 291, ../scss/pages/_services.scss */
+  /* line 231, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text h3 {
     line-height: 2.9rem;
     margin: 0 0 13px 0;
     max-width: 28.5rem;
     min-height: 0;
   }
-  /* line 297, ../scss/pages/_services.scss */
+  /* line 237, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .more {
     display: none;
   }
-  /* line 300, ../scss/pages/_services.scss */
+  /* line 240, ../scss/pages/_services.scss */
   .services-section .container .services .service .service-box__text .service__body {
     display: block;
     margin: 0;
     max-width: 30.5rem;
     text-align: left;
   }
-  /* line 310, ../scss/pages/_services.scss */
+  /* line 250, ../scss/pages/_services.scss */
   .services-section .know {
     margin: 0;
     text-align: center;

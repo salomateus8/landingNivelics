@@ -43,49 +43,44 @@
 
 @include mq-min(lg){
     .banners {
-        background: url("../assets/images/ellipseDesktop.svg") no-repeat 0 0;
-        background-size: 78%;
-        min-height: 83.0rem;
-        min-width: 100.8rem;
-        padding: 24px 42px 0 100px;
-        .container {
-            margin: 0;
-            padding: 0;
+        background: url("../assets/images/ellipse.svg") no-repeat bottom center;
+        background-size: cover;
+        min-height: 32.9rem;
+        .banner {
+            position: relative;
             .logo {
-                padding: 0;
+                padding: 50px 76px 0 76px;
+                align-self: centercom;
                 img {
-                    display: inline-block;
-                    margin: 35px 47px 0 47px;
-                    min-width: 30.5rem;
-                    min-height: 6.4rem;
+                    display: block;
+                    margin: 0 auto;
                 }
             }
             .img-banner {
-                display: block;
-                margin: 50px 0 0 52px;
-                visibility: visible;
+                display: none;
+            }
+            &__title {
+                max-width: 70%;
+                margin: 0 auto;
             }
             h1 {
                 color: color( grayscale, white );;
                 font-weight: 700;
-                font-size: 2.8rem;
-                line-height: 3.4rem;
-                margin: 50px 47px 0 0;
-                max-width: 49.2rem;
+                font-size: map-get($sizes, "tiny");
+                line-height: 2.2rem;
+                margin: 50px 47px 0 46px;
                 text-align: center;
             }
             .girl {
-                margin: 0;
-                right: -25px;
-                top: 280px;
-                z-index: 1;
+                position: absolute;
+                display: flex;
+                margin: 69px 0 0 54px;
+                right: 1px;
             }
             .btn-contact {
                 position: absolute;
-                margin: 0;
-                right: 130px;
-                top: 340px;
-                z-index: 2;
+                margin: 126px 0 0 18px;
+                right: 150px;
                 .btn.btn-secondary {
                     font-size: 2.4rem;
                     padding: 1.4rem 2.4rem;
@@ -119,26 +114,29 @@
                 margin: 0 0 0 52px;
                 visibility: visible;
             }
-            h1 {
-                color: color( grayscale, white );;
-                font-weight: 700;
-                font-size: 2.8rem;
-                line-height: 3.4rem;
-                margin: 30px 47px 0 0;
-                max-width: 49.2rem;
-                text-align: center;
+            .banner__title {
+                margin: 0;
+                h1 {
+                    color: color( grayscale, white );;
+                    font-weight: 700;
+                    font-size: 2.8rem;
+                    line-height: 3.4rem;
+                    margin: 30px 47px 0 0;
+                    max-width: 49.2rem;
+                    text-align: center;
+                }
             }
             .girl {
                 margin: 0;
-                right: -170px;
+                right: 0;
                 top: 240px;
                 z-index: 1;
             }
             .btn-contact {
                 position: absolute;
                 margin: 0;
-                right: -26px;
-                top: 302px;
+                right: 150px;
+                top: 300px;
                 z-index: 2;
                 .btn.btn-secondary {
                     font-size: 2.4rem;

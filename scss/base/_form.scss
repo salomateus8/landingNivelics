@@ -36,29 +36,17 @@
 
 @include mq-min(lg){
     .form-section {
-        position: relative;
         .form {
-            margin: inherit;
-            padding: 10px 21px 10px 21px;
-            position: absolute;
-            max-width: 36.1rem;
-            min-height: 56.0rem;
-            right: -30px;
-            top: -310px;
-            h2 {
-                font-size: 2.0rem;
-                font-weight: 700;
-                margin: 30px 0;
-                padding: 0;
-                text-align: center;
-            }
+            margin: 147px 12px 0 12px;
+            min-height: 0;
             iframe {
-                min-width: 33.5rem;
-                max-height: 230.0rem;
+                min-width: 93.0rem;
+                max-height: 130.0rem;
             }
         }
     }
 }
+ 
 
 @include mq-min(xx){
     .form-section {
@@ -67,10 +55,10 @@
             margin: inherit;
             padding: 10px 21px 10px 21px;
             position: absolute;
-            max-width: 66.1rem;
+            max-width: 60rem;
             min-height: 158.2rem;
-            right: -120px;
-            top: -400px;
+            right: 0;
+            top: -410px;
             h2 {
                 font-size: 2.0rem;
                 font-weight: 700;
@@ -80,7 +68,7 @@
             }
             iframe {
                 max-height: 150.5rem;
-                min-width: 62.0rem;
+                min-width: 50rem;
             }
         }
     }

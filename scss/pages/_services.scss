@@ -96,75 +96,14 @@
 
 @include mq-min(lg){
     .services-section {
-        border: 0.9rem solid #002452;
-        border-radius: 2.3rem;
-        max-width: 59.0rem;
-        margin: 20px 10px 0 23px;
-        .dots {
-            border-bottom: 0.5rem solid color(primary, dark);
-            padding: 24px 0 19px 29px;
-            span {
-                margin: 0 4px;
-            }
-            .icon-dot:before {
-                font-size: 35px;
-            }
-        }
         .container {
-            padding: 0;
-            max-width: 125.0rem;
-            .cards {
-                padding: 15px 32px;
-                .services-section__title{
-                    margin: 20px 20px;
-                    h2 {
-                        font-size: 2.8rem
-                    }
-            }
-            }
+            max-width: 67.0rem;
             .services {
-                display: block;
                 .service {
-                    align-items: center;
-                    display: flex;
-                    margin-bottom: 2.3rem;
-                    max-width: 64.1rem;
-                    max-height: none;
-                    padding: 21px 20px 20px 20px;
-                    .service-box__img {
-                        min-width: 26.0rem;
-                        .service__img {
-                            min-height: 19.0rem;
-                            img {
-                                height: 13.5rem;
-                                margin: 0;
-                            }
-                        }
-                    }
-                    .service-box__text {
-                        h3 {
-                            line-height: 29px;
-                            margin: 0 0 13px 0;
-                            max-width: 28.5rem;
-                            min-height: 0;
-                            text-align: left;
-                        }
-                        .more {
-                            display: none;
-                        }
-                        .service__body {
-                            display: block;
-                            margin: 0;
-                            max-width: 30.5rem;
-                            text-align: left;
-                        }
-                    }
+                    max-width: 30.0rem;
+                    max-height: 56.4rem;
                 }
             }
-        }
-        .know {
-            margin: 0;
-            text-align: center;
         }
     }
 }
@@ -172,7 +111,7 @@
 @include mq-min(xx){
     .services-section {
         border: none;
-        max-width: 70.6rem;
+        max-width: 64.6rem;
         margin: 28px 10px 0 23px;
         /*margin: 120px 42px 0 42px;*/
         .dots {
@@ -205,9 +144,9 @@
                     margin-bottom: 2.3rem;
                     max-width: 64.1rem;
                     max-height: 19.0rem;
-                    padding: 21px 41px 27px 40px;
+                    padding: 21px 11px 27px 5px;
                     .service-box__img {
-                        min-width: 28.0rem;
+                        min-width: 27.0rem;
                         .service__img {
                             min-height: 22.2rem;
                             img {
@@ -221,6 +160,7 @@
                             margin: 0 0 13px 0;
                             max-width: 28.5rem;
                             min-height: 0;
+                            text-align: left;
                         }
                         .more {
                             display: none;
